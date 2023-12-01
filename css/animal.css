@@ -1,0 +1,44 @@
+.animal-container {
+	display: flex;
+	padding: 2rem;
+}
+
+.animal-img {
+	width: 50%;
+	border-radius: 5px;
+}
+
+.animal-details {
+	padding: 2rem;
+}
+
+.animal-name {
+	font-size: 4rem;
+	margin: 1rem 0;
+}
+
+.animal-details h3 {
+	font-size: 2rem;
+	margin: 0.5rem 0;
+}
+
+.adopt-now-button {
+	font-size: 1.5rem;
+	background-color: var(--highlight);
+	color: var(--background);
+}
+
+.adopt-now-button:hover {
+	background-color: var(--background);
+	color: var(--highlight);
+}
+
+.details-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.animal-details p {
+	font-size: 1.1rem;
+}

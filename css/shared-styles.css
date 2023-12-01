@@ -1,0 +1,166 @@
+/* Color palette */
+:root {
+	--background: #f8f0e5;
+	--primary: #eadbc8;
+	--secondary: #dac0a3;
+	--highlight: #102c57;
+}
+
+/* Global reset */
+*,
+*::before,
+*::after,
+ul,
+ol,
+div {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+/* Global styles */
+.hidden {
+	display: none;
+}
+
+body {
+	background-color: var(--background);
+	color: var(--highlight);
+	font-family: montserrat, sans-serif;
+}
+
+/* Nav Bar */
+nav {
+	display: flex;
+	background-color: var(--primary);
+	align-items: center;
+}
+
+/* Logo */
+.logo-div {
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	background-color: var(--highlight);
+}
+
+.logo-img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	margin-left: -10px;
+}
+
+.logo-text {
+	color: var(--primary);
+	font-family: caveat;
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-left: -10px;
+}
+
+/* Nav Menu */
+.nav-items {
+	align-items: center;
+	display: flex;
+	flex: 1;
+	list-style: none;
+	justify-content: space-between;
+	justify-content: flex-start;
+}
+
+.nav-items a {
+	margin: 0 20px 0;
+}
+
+.nav-items .active {
+	font-weight: bold;
+}
+
+.nav-item {
+	cursor: pointer;
+}
+
+.nav-item:hover {
+	font-weight: bold;
+}
+
+.drop-down-heart {
+	position: relative;
+}
+
+.down-arrow {
+	position: relative;
+	left: -15px;
+	top: -2px;
+}
+
+.nav-bar-drop-down {
+	position: absolute;
+	list-style: none;
+	background-color: var(--background);
+	border: 1px solid var(--primary);
+	width: 110px;
+	box-shadow: 1px 1px 5px var(--highlight);
+	z-index: 1;
+}
+
+.drop-down-item {
+	padding: 10px;
+	margin: 5px;
+}
+
+.drop-down-item a {
+	margin: 0;
+}
+
+/* Action Buttons */
+.button {
+	padding: 15px;
+	margin-right: 50px;
+	border: 3px solid var(--highlight);
+	cursor: pointer;
+	transition: 0.2s;
+	border-radius: 5px;
+}
+
+.sign-up-btn {
+	background-color: var(--highlight);
+	color: var(--background);
+	transition: 0.2s;
+}
+
+.sign-up-btn:hover {
+	background-color: var(--primary);
+	color: var(--highlight);
+	transition: 0.2s;
+}
+
+.login-btn:hover {
+	background-color: var(--highlight);
+	color: var(--background);
+	transition: 0.2s;
+}
+
+footer {
+	background-color: var(--primary);
+	text-align: center;
+	padding: 1.5rem;
+}
