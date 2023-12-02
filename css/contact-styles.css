@@ -1,0 +1,17 @@
+.contact-h1 {
+	margin: 2rem 2rem;
+}
+
+.contact-info {
+	margin: 0.4rem 2rem;
+}
+
+.contact-h3 {
+	margin: 1rem 2rem;
+}
+
+.contact-iframe {
+	margin: 0 2rem 1rem 2rem;
+	border: 1px var(--highlight) solid;
+	border-radius: 5px;
+}
