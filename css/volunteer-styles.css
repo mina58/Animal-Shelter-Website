@@ -1,0 +1,44 @@
+.volunteer-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.volunteer-form {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 0;
+}
+
+.volunteer-form label {
+	margin: 0.5rem 2rem;
+}
+
+.volunteer-form input,
+.volunteer-form select {
+	margin: 0.1rem 2rem 0.5rem 2rem;
+	background-color: var(--background);
+	font-size: 1.5rem;
+	border: 1px var(--highlight) solid;
+	border-radius: 5px;
+	color: var(--highlight);
+}
+
+.volunteer-form input[type="checkbox"] {
+	margin: 0.2rem 0 0.2rem 2rem;
+}
+
+.volunteers-group-img {
+	width: 60%;
+	margin: 2rem;
+	border-radius: 5px;
+}
+
+#volunteer-submit {
+	margin: 2rem;
+}
+
+#volunteer-submit:hover {
+	background-color: var(--highlight);
+	color: var(--background);
+}
